@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".logo").mouseenter(function(){
+        $(".logo").css('opacity', '0.3');
+        $("h1").css('display', 'inline');
+    });
+    $('.logo').mouseleave(function(){
+      $('.logo').css('opacity', '1');
+      $('h1').css('display', 'none');
+    });
+});
+
+</script>
+<style>
+
+Head { margin: 0; }
+
+.small_logo {
+	height: 10%;
+	width: 10%;
+	padding-top: 2%;
+	padding-left: 2%;
+}
+
+p { text-align: center;
+
+}
+
+a { color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    opacity: 0.9;
+    font-weight: 300;
+    padding-left: 10px;
+    padding-right: 10px;}
+
+.wrap { height:auto;
+    margin: auto;
+    text-align:center;
+    position:relative;
+}
+
+.logo { width: 50%;
+        padding-top:75px;}
+
+
+.my-container img {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    }
+
+
+.description { font-family: sans-serif;
+    font-size: 16px;
+    Margin: 1%;
+    Padding: 2%;
+    }
+
+form { text-align: center;
+       font-size: 25px;
+      font-family: "Lato", sans-serif;
+      color: white;
+      opacity: 0.9;
+      font-weight: 300;
+       }
+
+
+body { margin-top: 0px;}
+
+input[type=submit] {
+  background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049; }
+
+input[type=text] {
+  width: 300px;
+  height:25px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+footer { background-color: white;
+         position: fixed; }
+
+</style>
+
+</head>
+
+<body>
+
+
+<div class="wrap">
+  <img src="holhauswhite.png" alt="logo" class="logo" >
+<h1 class="slogan"></h1>
+</div>
+  <div class="my-container">
+  <img src="woodbackground.png">
+  </div>
+</div>
+
+<div class="description">
+
+</div>
+
+<form>
+First name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text">
+<br>
+<br>
+Last name (optional):
+<input type="text">
+<br>
+<br>
+E-mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text">
+<br>
+<br>
+<input type="submit"> <value ="submit">
+</form>
+<br>
+<br>
+
+<a href="http://www.facebook.com/holhaus" class="fa fa-facebook"></a>
+<a href="http://www.twitter.com/hol_haus" class="fa fa-twitter"></a>
+<a href="http://www.instagram.com/holhaus" class="fa fa-instagram"></a>
+
+<br>
+<br>
+
+
+<!-- <a href="http://www.twitter.com/hol_haus">Twitter: @Hol_haus</a>
+  <a href="http://www.facebook.com/holhaus">Facebook.com/holhaus</a>
+-->
+</body>
+
+<footer>
+  <a href="tel:4243414287">424.341.HAUS</a>
+  <a href="mailto:Info@holhaus.com">Info@holhaus.com</a></p>
+</footer>
+</html>
